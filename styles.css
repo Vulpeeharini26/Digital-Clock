@@ -1,0 +1,48 @@
+.container{
+    background-color: lightgray;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock-container{
+   text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    height: 250px;
+    width: 400px;
+
+}
+.clock-time{
+    color:blue;
+    font-size: 60px;
+}
+.time-format-switch{
+    background-color: blue;
+    height: 36px;
+    color:white;
+    border-radius: 5px;
+    border-style: none;
+}
+.Dark-Mode{
+    background-color: lightgray;
+    border-radius: 5px;
+    height: 36px;
+    border-style: none;
+}
+.light-mode{
+     background-color: darkgrey;
+    border-radius: 5px;
+    height: 36px;
+    border-style: none;
+    color:white;
+    display:none;
+
+}
+.color{
+    color: blue;
+}
+.lcolor{
+    color:yellow
+}
